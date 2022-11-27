@@ -1,0 +1,17 @@
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\bin\Debug\AirportTicketOffice.exe.config
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\bin\Debug\AirportTicketOffice.exe
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\bin\Debug\AirportTicketOffice.pdb
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\App.g.cs
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\AirportTicketOffice_MarkupCompile.cache
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\AirportTicketOffice_MarkupCompile.lref
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\AirportTicketOffice.g.resources
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\AirportTicketOffice.Properties.Resources.resources
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\AirportTicketOffice.csproj.GenerateResource.cache
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\AirportTicketOffice.csproj.CoreCompileInputs.cache
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\AirportTicketOffice.exe
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\AirportTicketOffice.pdb
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\App.baml
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\UI\WindAutorization.g.cs
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\UI\WindMenu.g.cs
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\UI\WindAutorization.baml
+D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\UI\WindMenu.baml
