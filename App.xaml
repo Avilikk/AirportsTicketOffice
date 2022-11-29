@@ -7,15 +7,16 @@
 
         <Style TargetType="Label">
             <Setter Property="FontSize" Value="17"></Setter>
-            <Setter Property="FontFamily" Value="Arial"></Setter>
+            <Setter Property="FontFamily" Value="Comic Sans"></Setter>
         </Style>
 
         <Style TargetType="Button">
             <Setter Property="Width" Value="100"></Setter>
             <Setter Property="Height" Value="30"></Setter>
             <Setter Property="FontSize" Value="12"></Setter>
-            <Setter Property="FontFamily" Value="Arial"></Setter>
+            <Setter Property="FontFamily" Value="Comic Sans"></Setter>
             <Setter Property="Background" Value="LavenderBlush"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
             <Setter Property="Template">
                 <Setter.Value>
                     <ControlTemplate TargetType="Button">
@@ -27,6 +28,11 @@
                     </ControlTemplate>
                 </Setter.Value>
             </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightPink"></Setter>
+                </Trigger>
+            </Style.Triggers>
         </Style>
 
         <Style TargetType="TextBox">
@@ -35,6 +41,7 @@
             <Setter Property="FontSize" Value="17"></Setter>
             <Setter Property="FontFamily" Value="Arial"></Setter>
             <Setter Property="Background" Value="LavenderBlush"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
         </Style>
 
         <Style TargetType="PasswordBox">
@@ -43,12 +50,18 @@
             <Setter Property="Background" Value="LavenderBlush"></Setter>
             <Setter Property="FontSize" Value="17"></Setter>
             <Setter Property="FontFamily" Value="Arial"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
         </Style>
 
         <Style TargetType="DatePicker">
             <Setter Property="Background" Value="LavenderBlush"></Setter>
             <Setter Property="FontSize" Value="15"></Setter>
             <Setter Property="FontFamily" Value="Arial"></Setter>
+            <Setter Property="Cursor" Value="Hand"></Setter>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="Background" Value="LavenderBlush"></Setter>
         </Style>
 
     </Application.Resources>

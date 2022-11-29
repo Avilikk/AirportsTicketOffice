@@ -37,11 +37,6 @@ namespace AirportTicketOffice
             MessageBox.Show("Эта функция в разработке");
         }
 
-        private void butExit_Click(object sender, RoutedEventArgs e)
-        {
-            this.Close();
-        }
-
         private void butOK_Click(object sender, RoutedEventArgs e)
         {
             if (textboxLogin.Text.Length > 0)
@@ -81,6 +76,16 @@ namespace AirportTicketOffice
             {
                 MessageBox.Show("Укажите логин");
             }
+        }
+
+        private void butExit_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
         }
     }
 }

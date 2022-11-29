@@ -15,3 +15,21 @@ D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\UI\WindAutorizat
 D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\UI\WindMenu.g.cs
 D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\UI\WindAutorization.baml
 D:\User\Desktop\ККЭП\ОАИП\AirportTicketOffice\obj\Debug\UI\WindMenu.baml
+D:\Новая папка\bin\Debug\AirportTicketOffice.exe.config
+D:\Новая папка\bin\Debug\AirportTicketOffice.exe
+D:\Новая папка\bin\Debug\AirportTicketOffice.pdb
+D:\Новая папка\obj\Debug\AirportTicketOffice.csproj.AssemblyReference.cache
+D:\Новая папка\obj\Debug\UI\WindAutorization.g.cs
+D:\Новая папка\obj\Debug\UI\WindMenu.g.cs
+D:\Новая папка\obj\Debug\App.g.cs
+D:\Новая папка\obj\Debug\AirportTicketOffice_MarkupCompile.cache
+D:\Новая папка\obj\Debug\AirportTicketOffice_MarkupCompile.lref
+D:\Новая папка\obj\Debug\App.baml
+D:\Новая папка\obj\Debug\UI\WindAutorization.baml
+D:\Новая папка\obj\Debug\UI\WindMenu.baml
+D:\Новая папка\obj\Debug\AirportTicketOffice.g.resources
+D:\Новая папка\obj\Debug\AirportTicketOffice.Properties.Resources.resources
+D:\Новая папка\obj\Debug\AirportTicketOffice.csproj.GenerateResource.cache
+D:\Новая папка\obj\Debug\AirportTicketOffice.csproj.CoreCompileInputs.cache
+D:\Новая папка\obj\Debug\AirportTicketOffice.exe
+D:\Новая папка\obj\Debug\AirportTicketOffice.pdb

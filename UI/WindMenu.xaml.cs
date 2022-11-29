@@ -37,5 +37,10 @@ namespace AirportTicketOffice
         {
             MessageBox.Show("Эта функция в разработке");
         }
+
+        private void Grid_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
     }
 }

@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-D:\Новая папка\obj\Debug\
+D:\Новая папка\obj\Release\
 AirportTicketOffice
 none
 false
-DEBUG;TRACE
+TRACE
 D:\Новая папка\App.xaml
 2-1798631438
 
@@ -16,5 +16,5 @@ D:\Новая папка\App.xaml
 13-1505183044
 UI\WindAutorization.xaml;UI\WindMenu.xaml;
 
-False
+True
 
