@@ -6,93 +6,98 @@
         xmlns:local="clr-namespace:AirportTicketOffice"
         mc:Ignorable="d"
         Title="Меню" Height="900" Width="800" Icon="../Images/free-icon-plane-7234302.png" 
-        WindowStyle="None" ResizeMode="NoResize">
-    <Grid Background="Lavender">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="750"></ColumnDefinition>
-            <ColumnDefinition Width="80"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="150"></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-            <RowDefinition Height="80"></RowDefinition>
-        </Grid.RowDefinitions>
+        WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent">
+    <Grid>
+        <Border Width="auto" Height="auto" BorderBrush="Black" BorderThickness="2"
+                CornerRadius="0,30,0,30" Background="Lavender">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="750"></ColumnDefinition>
+                    <ColumnDefinition Width="80"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition Height="80"></RowDefinition>
+                </Grid.RowDefinitions>
 
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20, 20">
-            <Label>Авиакасса - поиск дешёвых авиабилетов</Label>
-            <Label>Подберем для Вас удобный рейс на самолет 
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Top" Margin="20, 20">
+                    <Label>Авиакасса - поиск дешёвых авиабилетов</Label>
+                    <Label>Подберем для Вас удобный рейс на самолет 
             и поможем купить авиабилеты дешево.</Label>
-        </StackPanel>
+                </StackPanel>
 
-        <Image Source="../Images/free-icon-plane-tickets-2746493.png" Height="230" HorizontalAlignment="Right" Margin="0,143,123,0" Grid.RowSpan="2"/>
+                <Image Source="../Images/free-icon-plane-tickets-2746493.png" Height="230" HorizontalAlignment="Right" Margin="0,143,123,0" Grid.RowSpan="2"/>
 
-        <Label Margin="0,132,0,18" Grid.RowSpan="2">Личные данные:</Label>
-        <Label Grid.Row="2">Рейсы:</Label>
+                <Label Margin="0,132,0,18" Grid.RowSpan="2">Личные данные:</Label>
+                <Label Grid.Row="2">Рейсы:</Label>
 
-        <StackPanel Grid.Row="1" HorizontalAlignment="Left" 
+                <StackPanel Grid.Row="1" HorizontalAlignment="Left" 
                      Margin="10,10,0,219" Grid.RowSpan="2">
-            <Label Content="Фамилия:"/>
-            <TextBox Margin="8"/>
-            <Label Content="Имя:"/>
-            <TextBox Margin="8"/>
-            <Label Content="Отчество:"/>
-            <TextBox Margin="8"/>
-        </StackPanel>
+                    <Label Content="Фамилия:"/>
+                    <TextBox Margin="8"/>
+                    <Label Content="Имя:"/>
+                    <TextBox Margin="8"/>
+                    <Label Content="Отчество:"/>
+                    <TextBox Margin="8"/>
+                </StackPanel>
 
-        <StackPanel Grid.Row="2" Height="200" 
+                <StackPanel Grid.Row="2" Height="200" 
                     Margin="30,28,30,128" Orientation="Horizontal">
-            <Label>Откуда:</Label>
-            <GridSplitter Background="Lavender" Width="50">
-            </GridSplitter>
-            <Label>Куда:</Label>
-            <GridSplitter Background="Lavender" Width="90"></GridSplitter>
-            <Label>Когда:</Label>
-            <GridSplitter Background="Lavender" Width="80"></GridSplitter>
-            <Label>Обратно:</Label>
-        </StackPanel>
+                    <Label>Откуда:</Label>
+                    <GridSplitter Background="Lavender" Width="50">
+                    </GridSplitter>
+                    <Label>Куда:</Label>
+                    <GridSplitter Background="Lavender" Width="90"></GridSplitter>
+                    <Label>Когда:</Label>
+                    <GridSplitter Background="Lavender" Width="80"></GridSplitter>
+                    <Label>Обратно:</Label>
+                </StackPanel>
 
-        <StackPanel Grid.Row="2" Height="50" 
+                <StackPanel Grid.Row="2" Height="50" 
                     Orientation="Horizontal" Margin="0,56,0,100">
-            <ComboBox Height="25" Width="100" Margin="20,0,20,0">
-                <ComboBoxItem Content="Краснодар"></ComboBoxItem>
-                <ComboBoxItem Content="Москва"></ComboBoxItem>
-                <ComboBoxItem Content="Самара"></ComboBoxItem>
-            </ComboBox>
-            <ComboBox Height="25" Width="100">
-                <ComboBoxItem Content="Краснодар"></ComboBoxItem>
-                <ComboBoxItem Content="Москва"></ComboBoxItem>
-                <ComboBoxItem Content="Самара"></ComboBoxItem>
-            </ComboBox>
-            <GridSplitter Background="Lavender" Width="40"/>
-            <DatePicker Height="30"/>
-            <GridSplitter Background="Lavender" Width="40"/>
-            <DatePicker Height="30"/>
-        </StackPanel>
+                    <ComboBox Height="25" Width="100" Margin="20,0,20,0">
+                        <ComboBoxItem Content="Краснодар"></ComboBoxItem>
+                        <ComboBoxItem Content="Москва"></ComboBoxItem>
+                        <ComboBoxItem Content="Самара"></ComboBoxItem>
+                    </ComboBox>
+                    <ComboBox Height="25" Width="100">
+                        <ComboBoxItem Content="Краснодар"></ComboBoxItem>
+                        <ComboBoxItem Content="Москва"></ComboBoxItem>
+                        <ComboBoxItem Content="Самара"></ComboBoxItem>
+                    </ComboBox>
+                    <GridSplitter Background="Lavender" Width="40"/>
+                    <DatePicker Height="30"/>
+                    <GridSplitter Background="Lavender" Width="40"/>
+                    <DatePicker Height="30"/>
+                </StackPanel>
 
-        <Image Source="../Images/jesse-collins-3VUhlG5RubY-unsplash.jpg" 
+                <Image Source="../Images/jesse-collins-3VUhlG5RubY-unsplash.jpg" 
                Margin="-15,167,331,10.5" Grid.Row="2" Grid.RowSpan="2">
-            <Image.Clip>
-                <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0, 0, 350, 250"/>
-            </Image.Clip>
-        </Image>
-        <Image Source="../Images/kit-suman-uczdfFqehUQ-unsplash.jpg"
+                    <Image.Clip>
+                        <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0, 0, 350, 250"/>
+                    </Image.Clip>
+                </Image>
+                <Image Source="../Images/kit-suman-uczdfFqehUQ-unsplash.jpg"
                Margin="278,125,10,52.5" Grid.Row="2" Grid.RowSpan="2">
-            <Image.Clip>
-                <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0, 0, 400, 250"/>
-            </Image.Clip>
-        </Image>
-        <Button x:Name="butOK" Grid.Row="4"
+                    <Image.Clip>
+                        <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0, 0, 400, 250"/>
+                    </Image.Clip>
+                </Image>
+                <Button x:Name="butOK" Grid.Row="4"
                 HorizontalAlignment="Left" Margin="20,23.5,0,10.5" Click="butOK_Click" 
                 Height="Auto" Width="131" FontSize="17">Заказать</Button>
-        <Button x:Name="butBack" Grid.Column="1" Panel.ZIndex="1"
-                Margin="10,10,36,107" Width="Auto" Click="butBack_Click" 
-                RenderTransformOrigin="1.353,-0.533" Height="Auto">X</Button>
+                <Button x:Name="butBack" Panel.ZIndex="1" FontSize="17"
+                Margin="746,10,44,109" Width="Auto" Click="butBack_Click" 
+                RenderTransformOrigin="1.353,-0.533" Height="Auto" Grid.ColumnSpan="2">X</Button>
 
-        <Label Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Bottom"
+                <Label Grid.Row="4" HorizontalAlignment="Right" VerticalAlignment="Bottom"
                Margin="0,0,0,10">Авторизация: Пользователь</Label>
 
-        <Grid Grid.ColumnSpan="2" MouseDown="Grid_MouseDown" Background="Transparent"></Grid>
+                <Grid Grid.ColumnSpan="2" MouseDown="Grid_MouseDown" Background="Transparent"></Grid>
+            </Grid>
+        </Border>
     </Grid>
 </Window>

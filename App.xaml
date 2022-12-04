@@ -51,6 +51,7 @@
             <Setter Property="FontSize" Value="17"></Setter>
             <Setter Property="FontFamily" Value="Arial"></Setter>
             <Setter Property="Cursor" Value="Hand"></Setter>
+            <Setter Property="MaxLength" Value="10"></Setter>
         </Style>
 
         <Style TargetType="DatePicker">
