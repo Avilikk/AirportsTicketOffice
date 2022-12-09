@@ -39,7 +39,7 @@
                 </Border>
                 <Image Source="../Images/free-icon-plane-tickets-2746493.png"></Image>
                 <Label Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Center"
-               FontSize="25">Пользователь:</Label>
+               FontSize="25">Вход в систему:</Label>
 
                 <StackPanel Grid.Row="1" Grid.Column="1" Margin="60, 20, 0, 20" Width="250" Height="300">
                     <Label Margin="0, 0, 0, 20">Логин:</Label>
@@ -56,7 +56,7 @@
 
                 <Button x:Name="butOK" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center"
                 Margin="0,10,0,10" Click="butOK_Click">Войти</Button>
-                <Button Grid.Column="2" Margin="57,10,10,61" Width="Auto" x:Name="butExit" 
+                <Button Grid.Column="2" Margin="60,10,10,63" Width="Auto" x:Name="butExit" 
                 Click="butExit_Click" FontSize="16" Height="Auto">X</Button>
             </Grid>
         </Border>
